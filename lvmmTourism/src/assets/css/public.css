@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body, div, p, ul, ol, li, dl, dd, dt, form, input, table, tr, td, h1, h2, h3, h4, h5, h6, textarea, figure, fieldset {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: "微软雅黑";
+  /*background: #f4f4f4;*/
+  display: flex;
+  flex-direction: column;
+}
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none;
+  display: block; }
+
+

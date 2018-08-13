@@ -1,0 +1,326 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, form, hr, fieldset, h1, h2, h3, h4, h5, h6, img, input {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+body {
+    font-family: "微软雅黑",Arial;
+    background: #eeeef5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+input, button {
+    outline: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    background: #efeff7;
+}
+
+.header{
+    display: flex;
+    height: 0.64rem;
+    background: #fff;
+    flex-direction: column;
+    padding: 0 .1rem;
+}
+.header .space{
+    width: 100%;
+    height: 0.16rem;
+    background: #fff;
+}
+.header .header-content{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: .2rem;
+    color: #000;
+    flex: 1;
+}
+.header .header-content .iconfont{
+    position: absolute;
+    color: #000;
+    font-size: .2rem;
+    left: .1rem;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+.section{
+    flex: 1;
+    overflow-X: hidden;
+    overflow-Y: scroll;
+}
+.section .section-data{
+    width: 100%;
+    height: 0.55rem;
+    background: #fff;
+    margin: .08rem 0;
+    padding: .08rem .1rem;
+    box-sizing: border-box;
+}
+.section .section-data .section-data-name{
+    font-size: .14rem;
+    color: #555655;
+    float: left;
+    line-height: 0.32rem;
+}
+.section .section-data a{
+    width: 0.59rem;
+    height: 0.39rem;
+    margin-left: .05rem;
+    float: right;
+    display: flex;
+    box-sizing: border-box;
+    border: .01rem solid #d4d4d3;
+    border-radius: .04rem;
+    align-items: center;
+    justify-content: center;
+}
+.section .section-data .grey-a{
+    width: 0.59rem;
+    flex-direction: column;
+}
+.section .section-data .grey-a span{
+    font-size: .12rem;
+    color: #979797;
+}
+.section .section-data .red-a{
+    height: 0.39rem;
+    flex-direction: column;
+}
+.section .section-data .red-a span{
+    font-size: .12rem;
+    color: #ca0058;
+}
+.section .section-data .more-a{
+    width: 0.79rem;
+}
+.section .section-data .more-a span{
+    font-size: .12rem;
+    color: #ca0058;
+    margin-left: .1rem;
+}
+.section .section-data .more-a span .icon-you{
+    font-size: .16rem;
+    margin-left: -0.05rem;
+}
+
+
+.section .section-ticket-num{
+    height: 1.32rem;
+    background: #fff;
+    padding: 0 .1rem;
+    display: flex;
+    flex-direction: column;
+}
+.section .section-ticket-num .section-ticket-num-box{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section .section-ticket-num .section-ticket-num-box2{
+    box-sizing: border-box;
+    border-top: .02rem solid #f2f2f2;
+    border-bottom: .02rem solid #f2f2f2;
+}
+.section .section-ticket-num .section-ticket-num-box .box-left{
+    font-size: .14rem;
+    color: #3b3c3b;
+}
+.section .section-ticket-num .section-ticket-num-box .box-right{
+    font-size: .12rem;
+    color: #c40044;
+}
+.section .section-ticket-num .section-ticket-num-box .box-right span{
+    font-size: .14rem;
+    color: #c40044;
+}
+.section .section-ticket-num .section-ticket-num-box .inform{
+    font-size: .20rem;
+    color: #676c6f;
+}
+.section .section-ticket-num .section-ticket-num-box2 .box-right a{
+    width: 0.23rem;
+    height: 0.23rem;
+    border: .02rem solid #e8e8e8;
+    border-radius: .03rem;
+    line-height: .23rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: .14rem;
+}
+.section .section-ticket-num .section-ticket-num-box2 .box-right a:nth-of-type(1){
+    border-right: 0;
+    color: #c7c7c6;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.section .section-ticket-num .section-ticket-num-box2 .box-right a:nth-of-type(2){
+    border-left: 0;
+    color: #363636;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.section .section-ticket-num .section-ticket-num-box2 .box-right input{
+    border: .02rem solid #d8d8d8;
+    color: #d1006d;
+    width: 0.38rem;
+    height: 0.22rem;
+    font-size: .12rem;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+.section .section-person-msg{
+    height: 1.76rem;
+    background: #fff;
+    margin: .08rem 0;
+    padding: 0 .1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section .section-person-msg .person-msg-box{
+    flex: 1;
+    width: 100%;
+    border-bottom: .02rem solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    font-size: .14rem;
+    color: #3f3f3f;
+    justify-content: flex-start;
+}
+.section .section-person-msg .person-msg-box1{
+    justify-content: space-between;
+}
+.section .section-person-msg .person-msg-box4{
+    border: 0;
+}
+.section .section-person-msg .person-msg-box .box-left{
+    min-width: .8rem;
+}
+.section .section-person-msg .person-msg-box input{
+    border: 0;
+}
+
+
+
+
+
+
+
+.section-bill{
+    height: 0.44rem;
+    background: #fff;
+    padding: 0 .1rem;
+    margin-bottom: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-bill .box-left{
+    font-size: .14rem;
+    color: #3f4040;
+}
+.section-bill .box-right{
+    font-size: .12rem;
+    color: #8c8c8c;
+}
+
+
+.section-agreement{
+    height: 0.2rem;
+    padding: 0 .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: .14rem;
+    color: #4f5054;
+}
+.section-agreement input{
+    margin-right: .06rem;
+    width: 0.18rem;
+    height: 0.18rem;
+    vertical-align: middle;
+}
+.section-agreement span{
+    vertical-align: middle;
+}
+.section-agreement span a{
+    color: #3982f1;
+}
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    background: #fff;
+    height: 0.5rem;
+    border-top: 1px solid #e7e7ef;
+}
+.footer .footer-left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer .footer-left .unselected{
+    color: #bfbfbf;
+    font-size: .12rem;
+    margin-left: .1rem;
+}
+.footer .footer-left img{
+    position: absolute;
+    right: .15rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer .footer-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/lc-31.png) repeat-y;
+    color: #fff;
+    font-size: .16rem;
+}

@@ -1,0 +1,25 @@
+.travelName{
+  font-size: .14rem;
+  font-weight: bold;
+  padding-left: .2rem;
+  padding-top: .22rem;
+}
+.travelChoice{
+  width: 3.46rem;
+  margin: 0 auto;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.imgsone,.imgstwo{
+  width: 3.46rem;
+  height: .8rem;
+  margin-top: .12rem;
+  display: flex;
+  justify-content: space-between;
+}
+.travelDo{
+  width: .65rem;
+  height: .8rem;
+}

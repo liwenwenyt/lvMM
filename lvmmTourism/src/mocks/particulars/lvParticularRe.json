@@ -1,0 +1,349 @@
+
+[
+  {
+    "id":0,
+    "parks": "华清宫(华清池 骊山)",
+    "rank": "[5A景区]",
+    "adde": "陕西省西安市临潼区华青路038号",
+    "percent": "97.1%",
+    "many": "1579",
+    "tuijian": [
+      {
+        "markets": "团购",
+        "tickets": "[门票]华清宫门票+人工讲解+【特卖】",
+        "price": "135",
+        "discounts": [],
+        "reserve": "立即抢"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]华清宫旺季门票【提前一天预定】",
+        "price": "135",
+        "reserve": "预定"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]华清宫成人当日票",
+        "price": "150",
+        "discounts": [
+          "立减10元"
+        ],
+        "reserve": "预定"
+      }
+    ]
+  },
+  {
+    "id":1,
+  "parks": "上海野生动物园",
+  "rank": "[5A景区]",
+  "adde": "上海市浦东新区南六公路178号",
+  "percent": "97.4%",
+  "many": "43651",
+  "tuijian": [
+    {
+      "markets": "秒杀",
+      "tickets": "[门票]成人票（包含猛兽区大巴游览）【特价周爆款】",
+      "hongbao": [
+        "可享红包"
+      ],
+      "price": "111",
+      "discounts": [],
+      "reserve": "立即抢"
+    },
+    {
+      "markets": "热销",
+      "tickets": "[门票]成人票（包含猛兽区大巴游览）",
+      "hongbao": [
+        "可享红包",
+        "立减"
+      ],
+      "price": "120",
+      "discounts": [
+        "立减5元"
+      ],
+      "reserve": "预定"
+    },
+    {
+      "markets": "热销",
+      "tickets": "[门票]2大1小家庭票（包含猛兽区大巴游览）",
+      "hongbao": [
+        "可享红包",
+        "立减",
+        "增优惠券",
+        "增"
+      ],
+      "price": "280",
+      "discounts": [
+        "立减10元"
+      ],
+      "reserve": "预定"
+    }
+  ]
+},
+  {
+    "id":2,
+    "parks": "大雁塔",
+    "rank": "[5A景区]",
+    "adde": "陕西省西安市和平门外雁塔路南端",
+    "percent": "92.5%",
+    "many": "338",
+    "tuijian": [
+      {
+        "markets": "热销",
+        "tickets": "[门票]成人票",
+        "hongbao": [
+          "可享红包",
+          "立减"
+        ],
+        "price": "48",
+        "discounts": [],
+        "reserve": "立减2元"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票][人工讲解]大慈恩寺成人票+人工讲解",
+        "hongbao": [
+          "立减2元"
+        ],
+        "price": "120",
+        "discounts": [
+          "立减5元"
+        ],
+        "reserve": "预定"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]2大1小家庭票（包含猛兽区大巴游览）",
+        "hongbao": [
+          "可享红包",
+          "立减",
+          "增优惠券",
+          "增"
+        ],
+        "price": "280",
+        "discounts": [
+          "立减10元"
+        ],
+        "reserve": "预定"
+      }
+    ]
+  },
+
+  {
+    "id":3,
+    "parks": "华夏文旅水世界",
+    "rank": "",
+    "adde": "陕西省西安市浐灞生态区华文路1518号",
+    "percent": "90%",
+    "many": "3",
+    "tuijian": [
+      {
+        "markets": "立减",
+        "tickets": "[门票]华夏文旅海洋公园成人票",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "218",
+        "discounts": [],
+        "reserve": "预订"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]成人票（包含猛兽区大巴游览）",
+        "hongbao": [
+          "可享红包",
+          "立减"
+        ],
+        "price": "120",
+        "discounts": [
+          "立减5元"
+        ],
+        "reserve": "预定"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]2大1小家庭票（包含猛兽区大巴游览）",
+        "hongbao": [
+          "可享红包",
+          "立减",
+          "增优惠券",
+          "增"
+        ],
+        "price": "280",
+        "discounts": [
+          "立减10元"
+        ],
+        "reserve": "预定"
+      }
+    ]
+  },
+
+  {
+    "id":4,
+    "parks": "大唐芙蓉园",
+    "rank": "[5A景区]",
+    "adde": "陕西省西安市曲江新区芙蓉西路99号",
+    "percent": "96.4%",
+    "many": "2226",
+    "tuijian": [
+      {
+        "markets": "热销",
+        "tickets": "[门票]成人票",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "115",
+        "discounts": [""],
+        "reserve": "预订"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]大唐芙蓉园电子导游可离线版—手机智能语音导览（含62个讲解点）",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "8",
+        "discounts": [
+          ""
+        ],
+        "reserve": "预定"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]大唐芙蓉园家庭套票",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "238",
+        "discounts": [
+          ""
+        ],
+        "reserve": "预定"
+      }
+    ]
+  },
+
+  {
+    "id":5,
+    "parks": "小雁塔",
+    "rank": "[4A景区]",
+    "adde": "陕西省西安市碑林区友谊西路72号",
+    "percent": "93.1%",
+    "many": "106",
+    "tuijian": [
+      {
+        "markets": "热销",
+        "tickets": "[服务]小雁塔手机智能导游（可离线版含10个讲解点）",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "3",
+        "discounts": [],
+        "reserve": "预订"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[服务]小雁塔手机智能导游（可离线版含10个讲解点）",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "3",
+        "discounts": [],
+        "reserve": "预订"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[服务]小雁塔手机智能导游（可离线版含10个讲解点）",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "3",
+        "discounts": [],
+        "reserve": "预订"
+      }
+    ]
+  },
+
+  {
+    "id":6,
+    "parks": "翠华山地质公园",
+    "rank": "[4A景区]",
+    "adde": "陕西省西安市翠华山脚小溪旁",
+    "percent": "99.9%",
+    "many": "10086",
+    "tuijian": [
+      {
+        "markets": "热销",
+        "tickets": "[门票]翠华山地质公园成人套票",
+        "hongbao": [
+          ""
+        ],
+        "price": "25",
+        "discounts": [],
+        "reserve": "预订"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]翠华山地质公园成人套票",
+        "hongbao": [
+          ""
+        ],
+        "price": "25",
+        "discounts": [],
+        "reserve": "预订"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]翠华山地质公园成人套票",
+        "hongbao": [
+          ""
+        ],
+        "price": "25",
+        "discounts": [],
+        "reserve": "预订"
+      }
+    ]
+  },
+
+  {
+    "id":7,
+    "parks": "大明宫",
+    "rank": "[4A景区]",
+    "adde": "陕西省西安市新城区自强东路与太华路交界处",
+    "percent": "93.2%",
+    "many": "107",
+    "tuijian": [
+      {
+        "markets": "热销",
+        "tickets": "[门票]大明宫国家遗址公园成人套票",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "82",
+        "discounts": [],
+        "reserve": "预订"
+      },
+      {
+        "markets": "热销",
+        "tickets": "[门票]大明宫国家遗址公园手机智能导游（可离线版含86个讲解点）",
+        "hongbao": [
+          "可享红包"
+        ],
+        "price": "8",
+        "discounts": [],
+        "reserve": "预订"
+      },
+      {
+        "markets": "热销",
+        "tickets": "大明工成人套票+三毛电子导航",
+        "hongbao": [
+          ""
+        ],
+        "price": "88",
+        "discounts": [],
+        "reserve": "预订"
+      }
+    ]
+  }
+
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id":0,
+    "title":"成人票",
+    "lists":[
+      {
+        "name":"门票",
+        "price":"280",
+        "items":[
+          {"markets":"秒杀",
+            "tickets":"[门票]成人票（包含猛兽区大巴游览）【特价周爆款】",
+            "hongbao":["可享红包"],
+            "price":"111",
+            "discounts":[],
+            "reserve":"立即抢"
+          },
+          {"markets":"热销",
+            "tickets":"[门票]成人票（包含猛兽区大巴游览）",
+            "hongbao":["可享红包","立减"],
+            "price":"120",
+            "discounts":["立减5元"],
+            "reserve":"预定"
+          },
+          {"markets":"热销",
+            "tickets":"[门票]2大1小家庭票（包含猛兽区大巴游览）",
+            "hongbao":["可享红包","立减","增优惠券","增"],
+            "price":"280",
+            "discounts":["立减10元"],
+            "reserve":"预定"
+          }
+        ]
+    }]
+  },
+  {
+    "id":1,
+    "title":"学生票"
+
+  },
+  {
+    "title":"家庭票"
+  }
+]

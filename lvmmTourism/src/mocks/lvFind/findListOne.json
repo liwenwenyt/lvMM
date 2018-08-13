@@ -1,0 +1,23 @@
+{
+  "img": "/static/img/we_changlong.jpg",
+  "place": "长隆",
+  "text": "夜宿熊猫馆、水上狂打call，长隆要这样玩才够“high”",
+  "travels": [
+    {
+      "header": "【游记征文】打包梦想，邂逅旅途中的小确幸！|写游记赢取丰厚奖品",
+      "content": "  一个为梦想旅游者而设计的品牌Doughnut源用至今的设计理念是较好的积分",
+      "img": "/static/img/we_china.jpg",
+      "place": "中国",
+      "zan": "24",
+      "find": "2429"
+    },
+    {
+      "header": "【我是达人】打包梦想，邂逅旅途中的小确幸！",
+      "content": "  一个为梦想旅游者而设计的品牌Doughnut源用至今的设计理念是较好的积分",
+      "img": "/static/img/we_riben.jpg",
+      "place": "日本",
+      "zan": "10",
+      "find": "2429"
+    }
+  ]
+}

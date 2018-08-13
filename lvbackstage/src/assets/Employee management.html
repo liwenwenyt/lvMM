@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+<link rel="stylesheet" type="text/css" href="css/Employee management.css"/>
+<title></title>
+</head>
+	<body>
+	<header>
+		<div class="headerwrapper">
+			<div class="header_left">
+				<img src="img/logo.png"/>
+				<a href="#" class="menu-collapse">
+					<i class="iconfont icon-goutongye_santiaogang_tiaozhuanxuanzehaizi"></i>
+				</a>
+			</div>
+			<div class="header_right"></div>
+		</div>
+	</header>
+	
+	<!--内容区域-->
+	<div class="mainZ">
+		<div class="main">
+			<div class="mainLeft">
+				<div class="leftpanel">
+					<div class="person">
+						<a href="#">
+							<img src="img/profile.png"/>
+						</a>
+						<div class="PersonInc">
+							<h4>技术总监</h4>
+							<p>
+								<i class="iconfont icon-msnui-shops"></i>
+								<i class="iconfont icon-huiyuan1"></i>
+								<i class="iconfont icon-huiyuan1"></i>
+								<i class="iconfont icon-huiyuan1"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<ul>
+						<li id="menu1">
+							<div id="menuO" class="menu_top">
+								<a class="menuMain" href="#">
+									<div class="menuText">
+										<i class="iconfont icon-msnui-shops"></i>
+										<span>首页</span>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li id="menu1">
+							<div id="menuT" class="menu_top">
+								<a class="menuMain" href="#">
+									<div class="menuText">
+										<i class="iconfont icon-msnui-shops"></i>
+										<span>新能源车辆数据分析</span>
+									</div>
+									<img class="menuPic" src="img/icon1.png"/>
+								</a>
+							</div>
+							<ul id="menuM" class="menu_bot">
+								<a href=""><li>后台管理数据</li></a>
+								<a href="Big Date Page.html"><li>大数据管理</li></a>
+							</ul>
+						</li>
+						<li id="menu1">
+							<div id="menuT1" class="menu_top1">
+								<a class="menuMain" href="#">
+									<div class="menuText">
+										<i class="iconfont icon-msnui-shops"></i>
+										<span>国企信用公示系统</span>
+									</div>
+									<img class="menuPic" src="img/icon1.png"/>
+								</a>
+							</div>
+							<ul id="menuM1" class="menu_bot">
+								<li><a href="">后台管理数据</a></li>
+								<li><a href="wydata.html">大数据管理</a></li>
+							</ul>
+						</li>
+						<li id="menu1">
+							<div id="menuT2" class="menu_top2">
+								<a class="menuMain" href="#">
+									<div class="menuText">
+										<i class="iconfont icon-msnui-shops"></i>
+										<span>大屏数据管理系统</span>
+									</div>
+									<img class="menuPic" src="img/icon1.png"/>
+								</a>
+							</div>
+							<ul id="menuM2" class="menu_bot">
+								<li><a href="">后台管理数据</a></li>
+								<li><a href="liubigData.html">大数据管理</a></li>
+							</ul>
+						</li>
+						<li id="menu1">
+							<div id="menuT3" class="menu_top3">
+								<a class="menuMain" href="#">
+									<div class="menuText">
+										<i class="iconfont icon-msnui-shops"></i>
+										<span>新能源车辆数据分析</span>
+									</div>
+									<img class="menuPic" src="img/icon1.png"/>
+								</a>
+							</div>
+							<ul id="menuM3" class="menu_bot">
+								<li><a href="">后台管理数据</a></li>
+								<li><a href="Big Date Page.html">大数据管理</a></li>
+							</ul>
+						</li>
+						<li id="menu1">
+							<div id="menuT4" class="menu_top4">
+								<a class="menuMain" href="#">
+									<div class="menuText">
+										<i class="iconfont icon-msnui-shops"></i>
+										<span>新能源车辆数据分析</span>
+									</div>
+									<img class="menuPic" src="img/icon1.png"/>
+								</a>
+							</div>
+							<ul id="menuM4" class="menu_bot">
+								<a href=""><li>后台管理数据</li></a>
+								<a href="Big Date Page.html"><li>大数据管理</li></a>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="mainRight">
+				<div class="mainRightZ">
+					<div class="rightTop">
+						<div class="rTopLeft">
+							<img src="img/weizhi.png"/>
+							<p>您的当前位置：员工管理</p>
+						</div>
+						<div id="nowTime" class="rTopRight">
+						</div>
+					</div>
+					<div class="rightBot">
+						<div class="botMainTitle">
+							<img src="img/Sfangdajing.png"/>
+							<input type="text" placeholder="员工编号"/>
+							<input type="text" placeholder="员工名称"/>
+							<select value="研发部">
+								<option>研发部</option>
+								<option>产品部</option>
+								<option>销售部</option>
+								<option>后勤保障部</option>
+								<option>财务部</option>
+							</select>
+							<input type="text" placeholder="联系方式"/>
+							<input type="text" placeholder="现居住地"/>
+							<input type="button" value="搜索"/>
+							<input type="button" value="+ 员工信息" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"/>
+						</div>
+						<div class="botMainCenter">
+							<table id="t" border="1px solid #cdcbcc" cellspacing="0" cellpadding="0">
+								<thead>
+									<th class="tableinput"><input id="allMen" class="checkAll" type="checkbox"/>员工编号</th>
+									<th>员工名称</th>
+									<th>手机号码</th>
+									<th>身份证号</th>
+									<th>所在地</th>
+									<th>所属部门</th>
+									<th>入职时间</th>
+									<th>操作</th>
+								</thead>
+								<tbody id="trmain">
+									<tr>
+										<td><input class="checkgoods" type="checkbox"/>123456</td>
+										<td>孙泽豪</td>
+										<td>15215474857</td>
+										<td>654010252451254877</td>
+										<td>北京 北京市 雁塔区 </td>
+										<td>研发部</td>
+										<td>2018/6/28</td>
+										<td>
+											<div class="zsgc">
+												<a href="#">
+													<img src="img/sunchankan.png"/>
+													<span>查看</span>
+												</a>
+												<a href="#">
+													<img src="img/sunxiugai.png"/>
+													<span>修改</span>
+												</a>
+												<a href="#">
+													<img src="img/sunshanchu.png"/>
+													<span>删除</span>
+												</a>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><input class="checkgoods" type="checkbox"/>123456</td>
+										<td>孙泽豪</td>
+										<td>15215474857</td>
+										<td>654010252451254877</td>
+										<td>山东 烟台市 雁塔区 </td>
+										<td>研发部</td>
+										<td>2018/6/28</td>
+										<td>
+											<div class="zsgc">
+												<a href="#">
+													<img src="img/sunchankan.png"/>
+													<span>查看</span>
+												</a>
+												<a href="#">
+													<img src="img/sunxiugai.png"/>
+													<span>修改</span>
+												</a>
+												<a href="#">
+													<img src="img/sunshanchu.png"/>
+													<span>删除</span>
+												</a>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><input class="checkgoods" type="checkbox"/>123456</td>
+										<td>孙泽豪</td>
+										<td>15215474857</td>
+										<td>654010252451254877</td>
+										<td>陕西 西安市 雁塔区 </td>
+										<td>研发部</td>
+										<td>2018/6/28</td>
+										<td>
+											<div class="zsgc">
+												<a href="#">
+													<img src="img/sunchankan.png"/>
+													<span>查看</span>
+												</a>
+												<a href="#">
+													<img src="img/sunxiugai.png"/>
+													<span>修改</span>
+												</a>
+												<a href="#">
+													<img src="img/sunshanchu.png"/>
+													<span>删除</span>
+												</a>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><input class="checkgoods" type="checkbox"/>123456</td>
+										<td>孙泽豪</td>
+										<td>15215474857</td>
+										<td>654010252451254877</td>
+										<td>陕西 西安市 雁塔区 </td>
+										<td>研发部</td>
+										<td>2018/6/28</td>
+										<td>
+											<div class="zsgc">
+												<a href="#">
+													<img src="img/sunchankan.png"/>
+													<span>查看</span>
+												</a>
+												<a href="#">
+													<img src="img/sunxiugai.png"/>
+													<span>修改</span>
+												</a>
+												<a href="#">
+													<img src="img/sunshanchu.png"/>
+													<span>删除</span>
+												</a>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="botMainFooter">
+							<div class="footerLeft">
+								<input class="checkDelete" type="checkbox"/>
+								<input type="button" value="删除员工"/>
+							</div>
+							<div class="footerRight">
+								<div style="width:900px ;margin: 0 auto">
+									<!--分页-->
+									<!--<div class="tcdPageCode"></div>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rightmainfooter">
+					<p>车辆管理系统 版权所有 All Right Reserved 【©ICP备1235468】</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--div模态窗口-->
+	<div id="light" class="white_content">
+        <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
+        	×
+        </a>
+        <div class="rowone">
+        	<div class="rowone_left">
+        		<span>员工编号:</span>
+        		<input id="textId" name="userid" type="text" placeholder="请输入五位数"/>
+        	</div>
+        	<div class="rowone_right">
+        		<span>员工名称:</span>
+        		<input id="textName" type="text" />
+        	</div>
+        </div>
+        <div class="rowone">
+        	<div class="rowone_left">
+        		<span>手机号码:</span>
+        		<input id="textPhone" name="userphone" type="text"  placeholder="请输入手机号"/>
+        	</div>
+        	<div class="rowone_right">
+        		<span>身份证号:</span>
+        		<input id="textCard" name="useridcard" type="text"  placeholder="请输入身份证号"/>
+        	</div>
+        </div>
+        <div class="rowoneBumen">
+    		<span>所属部门:</span>
+    		<select id="textBumen" value="研发部">
+				<option>研发部</option>
+				<option>产品部</option>
+				<option>销售部</option>
+				<option>后勤保障部</option>
+				<option>财务部</option>
+			</select>
+        </div>
+        <div class="rowtable">
+    		<p>所在地:</p>
+    		<div class="selectDom">
+    			<select id="cmbProvince" name="cmbProvince"></select>  
+				<select id="cmbCity" name="cmbCity"></select>  
+				<select id="cmbArea" name="cmbArea"></select>  
+    		</div>
+        </div>
+        <div class="rowTime">
+    		<span>入职时间:</span>
+    		<form class="chooseTime" name="reg_testdate">
+			    <select id="textTime1" name="YYYY" onChange="YYYYDD(this.value)">
+			        <option value="">请选择 年</option>
+			    </select>
+			    <select id="textTime2" name="MM" onChange="MMDD(this.value)">
+			        <option value="">选择 月</option>
+			    </select>
+			    <select id="textTime3" name="DD" onChange="DDD(this.value)">
+			        <option value="">选择 日</option>
+			    </select>
+			</form>
+        </div>
+        <div class="rowSub">
+    		<input type="button" value="取消" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"/>
+    		<input id="okMessage" type="submit" value="确认"/>
+        </div>
+    </div> 
+    <div id="fade" class="black_overlay"></div>
+    
+    
+    <!--添加操作-->
+    <div id="qwer" class="zsgc asd">
+		<a href="#">
+			<img src="img/sunchankan.png"/>
+			<span>查看</span>
+		</a>
+		<a href="#">
+			<img src="img/sunxiugai.png"/>
+			<span>修改</span>
+		</a>
+		<a href="#">
+			<img src="img/sunshanchu.png"/>
+			<span>删除</span>
+		</a>
+	</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/Employee management.js"></script>
+<script type="text/javascript" src="js/jquery.page.js"></script>
+<script>
+	var tiaoshu=1000;//数据的条数
+	var yexian=4;//每页几条数据
+	var ye=  Math.ceil(tiaoshu/yexian);//可以分为几页
+	var currentUrl01 = decodeURI(window.location.href);
+	var arr01 = currentUrl01.split("?");
+	function bian(yeshu){
+		var stateObject = {};
+		var title = "";
+		var newUrl ="" ;
+		if(arr01[0]!=parseInt($('#dang').text())){
+			newUrl =arr01[0]+"?"+yeshu;
+			history.pushState(stateObject,title,newUrl);
+		}
+	}
+	$(".tcdPageCode").createPage({
+		pageCount:ye,
+		current:1,
+		backFn:function(p){
+			console.log(p);
+			bian(p);
+		}
+	});
+</script>
+
